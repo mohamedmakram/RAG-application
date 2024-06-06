@@ -15,3 +15,10 @@ $ python -m venv env
 $ env/Scripts/Activate
 ```
 
+4) Install required packages:
+```bash
+pip install -r requirements.txt
+```
+5) Setup environment variables
+```bash 
+$ cp .env.example .env 
